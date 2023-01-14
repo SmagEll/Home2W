@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(202, 248, 244);
+    font-family: 'Cherish & Love';
+    font-size: 2rem;
+    margin-left: 3em;
+    margin-right: 15em;
+    margin-block-start: 0,3em;
+    margin-block-end: 0,5em;
+}
+h1 {
+    color: rgb(2, 2, 104);
+    margin-left: 7em;
+}
+h2 {
+    color: rgb(60, 10, 88);
+    margin-left: 7em;
+}
+@font-face {
+	font-family: 'Cherish & Love';
+	src: url('fonts/cherish_love.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/cherish_love.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/cherish_love.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/cherish_love.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/cherish_love.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/cherish_love.svg#cherish_love') format('svg'); /* Chrome < 4, Legacy iOS */
+}
